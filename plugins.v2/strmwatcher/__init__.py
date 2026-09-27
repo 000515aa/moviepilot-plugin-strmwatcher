@@ -23,7 +23,7 @@ class StrmWatcher(_PluginBase):
 
     plugin_name = "STRM实时刮削"
     plugin_desc = "增量监控 strm 目录，新文件落盘后自动识别、刮削元数据与高清图片，修复缺失/损坏海报，触发 Emby 单条刷新。"
-    plugin_icon = "scraper.png"
+    plugin_icon = "scraper.svg"
     plugin_version = "1.1.0"
     plugin_label = "媒体库"
     plugin_author = "000515aa"
