@@ -1,0 +1,16 @@
+{
+  "StrmWatcher": {
+    "name": "STRM实时刮削",
+    "description": "增量监控 strm 目录，新文件落盘后自动识别、刮削元数据与高清图片，修复缺失/损坏海报，触发 Emby 单条刷新。",
+    "labels": "媒体库",
+    "version": "1.1.0",
+    "icon": "scraper.png",
+    "author": "000515aa",
+    "level": 1,
+    "system_version": ">=3.0.0",
+    "history": {
+      "v1.1.0": "图片增强：缺失/损坏海报体检修复、TMDB域名回退链直抓original高清图、全库图片体检一次性队列",
+      "v1.0.0": "初始版本：增量监控、去抖、幂等跳过、历史页面、Emby 单条刷新"
+    }
+  }
+}
